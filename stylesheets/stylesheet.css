@@ -278,6 +278,7 @@ p.lead {
 
 .social ul {
     display: flex;
+    flex-direction: row;
     list-style: none;
     justify-content: space-around;
     padding: 0;
