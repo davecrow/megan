@@ -227,7 +227,7 @@ p.lead {
     font-size: 1.1rem;
 }
 
-.resume {
+.divider {
     border-top: solid 1px #eff0f1;
     margin-top: 4rem;
     padding-top: 3rem;
@@ -260,6 +260,22 @@ p.lead {
     color: #666;
 }
 
+.blockquote {
+    padding: 3rem 4rem 0;
+}
+
+@media screen and (max-width: 42em) {
+    .blockquote {
+        padding: 3rem 0 0;
+    }
+}
+
+.blockquote p {
+    font-size: 1.2rem;
+    font-style: italic;
+    line-height: 1.8;
+}
+
 .site-footer {
   padding-top: 2rem;
   margin-top: 2rem;
@@ -277,8 +293,8 @@ p.lead {
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .site-footer {
-    font-size: 1rem; } }
+    font-size: .7rem; } }
 
 @media screen and (max-width: 42em) {
   .site-footer {
-    font-size: 0.9rem; } }
+    font-size: 0.7rem; } }
