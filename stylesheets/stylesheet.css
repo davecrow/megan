@@ -115,6 +115,8 @@ a {
   font-weight: normal;
   color: #4ab1bd; }
 .main-content p {
+  font-size: .875rem;
+  line-height: 1.5;
   margin-bottom: 1em; }
 .main-content code {
   padding: 2px 4px;
@@ -221,13 +223,17 @@ a {
     padding: 2rem 1rem;
     font-size: 1rem; } }
 
+p.lead {
+    font-size: 1.1rem;
+}
+
 .resume {
     border-top: solid 1px #eff0f1;
     margin-top: 4rem;
     padding-top: 3rem;
 }
 
-.lead {
+.section-title {
     text-align: center;
 }
 
