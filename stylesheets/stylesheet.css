@@ -233,6 +233,14 @@ p.lead {
     padding-top: 3rem;
 }
 
+.contact {
+    text-align: center;
+}
+
+.contact a {
+    color: #fff;
+}
+
 .section-title {
     text-align: center;
 }
