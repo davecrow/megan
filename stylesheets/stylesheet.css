@@ -227,6 +227,33 @@ a {
     padding-top: 3rem;
 }
 
+.lead {
+    text-align: center;
+}
+
+.resume h4 {
+    color: #aaa;
+    letter-spacing: .6px;
+    font-size: .875rem;
+    margin-top: .5rem;
+    text-transform: uppercase;
+}
+
+.resume ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 2rem;
+}
+
+.resume ul li {
+    font-size: .875rem;
+    margin-top: .65rem;
+}
+
+.company-name {
+    color: #666;
+}
+
 .site-footer {
   padding-top: 2rem;
   margin-top: 2rem;
