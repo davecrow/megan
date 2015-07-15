@@ -278,10 +278,17 @@ p.lead {
 
 .social ul {
     display: flex;
+    display:-webkit-flex;
     flex-direction: row;
     list-style: none;
     justify-content: space-around;
     padding: 0;
+}
+
+.social ul li {
+    height: 60px;
+    margin: auto;
+    width: 60px;
 }
 
 .social ul li a {
