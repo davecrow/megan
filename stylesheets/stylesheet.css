@@ -19,9 +19,19 @@ a {
   a:hover {
     text-decoration: underline; }
 
+h2 {
+    color: #8B0566;
+    font-size: 2em;
+    font-weight: 400;
+}
+
 .display {
+    background: -webkit-linear-gradient(135deg, #61045F, #AA076B);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     font-size: 7.5em;
     text-transform: uppercase;
     letter-spacing: 2px;
     line-height: 0.9;
+    margin: 0;
 }
