@@ -9,7 +9,19 @@ body {
   line-height: 1.5;
   color: #606c71; }
 
+ .wrapper {
+     margin: 40px;
+ }
+
 a {
+  color: #8B0566;
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
+
+.display {
+    font-size: 7.5em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 0.9;
+}
