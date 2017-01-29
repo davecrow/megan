@@ -13,6 +13,11 @@ body {
      margin: 40px;
  }
 
+section {
+    display: flex;
+    flex-direction: column;
+}
+
 a {
   color: #8B0566;
   text-decoration: none; }
@@ -25,15 +30,22 @@ h2 {
     font-weight: 400;
 }
 
+h3 {
+    color: #8B0566;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
 .display {
     background: -webkit-linear-gradient(135deg, #61045F, #AA076B);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     font-size: 7.5em;
-    text-transform: uppercase;
     letter-spacing: 2px;
     line-height: 0.9;
     margin: 0 0 80px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .secondary {
@@ -44,4 +56,19 @@ h2 {
     font-size: 24px;
 }
 
+.page-header {
+    align-items:stretch;
+    display:flex;
+    height: 100vh;
+    padding-bottom: 80px;
+    position:relative;
+}
+
+.page-header-content {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-around;
+    margin: auto;
+    text-align: center;
 }
