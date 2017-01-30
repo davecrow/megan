@@ -10,7 +10,7 @@ body {
   color: #606c71; }
 
  .wrapper {
-     margin: 2.5em;
+     margin: 1.5em;
  }
 
 section {
@@ -21,7 +21,8 @@ section {
 a {
   color: #8B0566;
   text-decoration: none; }
-  a:hover {
+
+a:hover {
     text-decoration: underline; }
 
 h2 {
@@ -32,7 +33,7 @@ h2 {
 
 h3 {
     color: #8B0566;
-    font-size: 1.2em;
+    font-size: 1.15em;
     font-weight: 400;
 }
 
@@ -42,6 +43,7 @@ h3 {
     margin: 20px auto;
     /*max-width: 50%;*/
     padding: 20px 40px;
+    text-align: center;
 }
 
 .button:hover {
@@ -63,10 +65,9 @@ a.button-text:hover {
     background: -webkit-linear-gradient(135deg, #61045F, #AA076B);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-    font-size: 3.5em;
+    font-size: 3.15em;
     letter-spacing: 2px;
     line-height: 0.9;
-    text-align: center;
     text-transform: uppercase;
 }
 
@@ -91,5 +92,4 @@ a.button-text:hover {
     height: 100vh;
     justify-content: space-around;
     margin: auto;
-    text-align: center;
 }
