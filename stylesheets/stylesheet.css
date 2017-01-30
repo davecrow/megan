@@ -94,3 +94,12 @@ a.button-text:hover {
     justify-content: space-around;
     margin: auto;
 }
+
+.divider {
+    border-top: 1px solid #979EA2;
+    padding-top: 20px;
+}
+
+.blockquote p {
+    font-style: italic;
+}
