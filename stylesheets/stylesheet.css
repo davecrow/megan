@@ -84,7 +84,6 @@ a.button-text:hover {
     display:flex;
     height: 100vh;
     padding-bottom: 5em;
-    position:relative;
 }
 
 .page-header-content {
@@ -102,4 +101,16 @@ a.button-text:hover {
 
 .blockquote p {
     font-style: italic;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.social-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
 }
