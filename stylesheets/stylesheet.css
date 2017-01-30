@@ -26,13 +26,13 @@ a {
 
 h2 {
     color: #8B0566;
-    font-size: 2em;
+    font-size: 1.4em;
     font-weight: 400;
 }
 
 h3 {
     color: #8B0566;
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: 400;
 }
 
@@ -40,7 +40,7 @@ h3 {
     background-color: #8B0566;
     border-radius: 8px;
     margin: 20px auto;
-    max-width: 50%;
+    /*max-width: 50%;*/
     padding: 20px 40px;
 }
 
@@ -50,7 +50,7 @@ h3 {
 
 .button-text {
     color: #fff;
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: 500;
     letter-spacing: 1px;
 }
@@ -63,7 +63,7 @@ a.button-text:hover {
     background: -webkit-linear-gradient(135deg, #61045F, #AA076B);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-    font-size: 7.5em;
+    font-size: 3.5em;
     letter-spacing: 2px;
     line-height: 0.9;
     text-align: center;
