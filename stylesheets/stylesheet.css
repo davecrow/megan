@@ -37,14 +37,27 @@ h3 {
     font-weight: 400;
 }
 
+@media (min-width: 576px) {
+    h3 {
+      font-size: 1.5em;
+    }
+}
+
 .button {
     background-color: #8B0566;
     border-radius: 25px;
     display: block;
     margin: 20px auto;
+    max-width: 320px;
     padding: 12px 0;
     text-align: center;
     width: 100%;
+}
+
+@media (min-width: 576px) {
+    .button {
+        margin: 20px 0;
+    }
 }
 
 .button:hover {
@@ -56,6 +69,12 @@ h3 {
     font-size: 1em;
     font-weight: 500;
     letter-spacing: 1px;
+}
+
+@media (min-width: 576px) {
+    .button-text {
+      font-size: 1.25em;
+    }
 }
 
 a.button-text:hover {
@@ -70,6 +89,12 @@ a.button-text:hover {
     letter-spacing: 2px;
     line-height: 0.9;
     text-transform: uppercase;
+}
+
+@media (min-width: 576px) {
+    .display {
+        font-size: 7.75em;
+    }
 }
 
 .secondary {
@@ -91,7 +116,6 @@ a.button-text:hover {
     flex-direction: column;
     height: 100vh;
     justify-content: space-around;
-    margin: auto;
 }
 
 .divider {
@@ -99,8 +123,16 @@ a.button-text:hover {
     padding-top: 20px;
 }
 
+@media (min-width: 576px) {
+    .divider {
+      padding: 60px 0;
+    }
+}
+
 .blockquote p {
     font-style: italic;
+    margin: auto;
+    max-width: 450px;
 }
 
 .section-title {
@@ -113,4 +145,10 @@ a.button-text:hover {
     justify-content: space-around;
     margin: 0;
     padding: 0;
+}
+
+@media (min-width: 576px) {
+    .social-list {
+      margin: 40px 0;
+    }
 }
