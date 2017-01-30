@@ -43,6 +43,11 @@ h3 {
     }
 }
 
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
 .button {
     background-color: #8B0566;
     border-radius: 25px;
@@ -143,12 +148,15 @@ a.button-text:hover {
     display: flex;
     list-style: none;
     justify-content: space-around;
-    margin: 0;
+    margin: 0 auto;
+    max-width: 450px;
     padding: 0;
+    width: 100%;
 }
 
 @media (min-width: 576px) {
     .social-list {
-      margin: 40px 0;
+      margin: 20px 0;
+      width: 450px;
     }
 }
