@@ -15,7 +15,6 @@ body {
 
 section {
     display: flex;
-    flex-direction: column;
 }
 
 a {
@@ -46,6 +45,10 @@ h3 {
 .flex-center {
     display: flex;
     justify-content: center;
+}
+
+.column {
+    flex-direction: column;
 }
 
 .button {
@@ -134,10 +137,27 @@ a.button-text:hover {
     }
 }
 
+.blockquote {
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+@media (min-width: 750px) {
+    .blockquote {
+      flex-direction: row;
+    }
+}
+
 .blockquote p {
     font-style: italic;
     margin: auto;
     max-width: 450px;
+}
+
+.quote {
+    margin: auto;
+    max-width: 320px;
+    padding-bottom: 40px;
 }
 
 .section-title {
